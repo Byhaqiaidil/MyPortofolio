@@ -1,8 +1,11 @@
+* {
+  font-family: sans-serif;
+}
 .jumbotron {
   background: url(foto/1.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 20%;
-  padding-bottom: 20%;
+  padding-bottom: 15%;
   margin-top: -50px;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
@@ -16,10 +19,6 @@
   width: 250px;
   border: 3px solid #000;
 }
-.garis hr {
-  width: 250px;
-  border-top: 3px solid #000;
-}
 
 .logo {
   font-family: "poppins", sans-serif;
@@ -29,5 +28,7 @@
 @media (max-width: 767.98px) {
   .jumbotron {
     padding-top: 35%;
+    background: url(foto/1.jpg) no-repeat center center;
+    background-size: cover;
   }
 }
