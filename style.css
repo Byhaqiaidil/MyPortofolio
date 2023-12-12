@@ -1,10 +1,10 @@
 * {
-  font-family: sans-serif;
+  font-family: "poppins", sans-serif;
 }
 .jumbotron {
-  background: url(foto/1.jpg) no-repeat center center;
+  background: url(foto/3.jpg) no-repeat center center;
   background-size: cover;
-  padding-top: 20%;
+  padding-top: 15%;
   padding-bottom: 15%;
   margin-top: -50px;
   color: #fff;
@@ -21,14 +21,23 @@
 }
 
 .logo {
-  font-family: "poppins", sans-serif;
   font-style: italic;
-  font-size: large;
+  font-weight: 700;
+  font-size: 30px;
 }
+.logo span {
+  color: #000;
+}
+
 @media (max-width: 767.98px) {
   .jumbotron {
     padding-top: 35%;
-    background: url(foto/1.jpg) no-repeat center center;
+    background: url(foto/3.jpg) no-repeat center center;
     background-size: cover;
+  }
+  .logo {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
   }
 }
